@@ -1,0 +1,44 @@
+.footer {
+    background: #94650d;
+    min-height: 50px;
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    font-size: calc(10px + (24 - 10) * (100vw - 320px) / (2800 - 400));
+    z-index: 99;
+    white-space: nowrap;
+    text-align: center;
+    
+  }
+  
+  /*.navbar ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 26px 0px;
+    width: 33.3%;
+    text-align: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+  } */
+  
+  @media (max-width: 420px) {
+    .footer li:first-child {
+      width: 25%;
+    }
+  
+    .navbar li:nth-child(2) {
+      width: 35%;
+    }
+  
+    .navbar li:last-child {
+      width: 40%;
+    }
+  }
